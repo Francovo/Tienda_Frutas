@@ -10,21 +10,26 @@ const Details = ({ detalle }) => {
   const guardarLs = [];
   const handleChange = ({ target }) => {
     const boton = target.classList.contains("botonAgregar");
+    let traerLocal = JSON.parse(localStorage.getItem("getItem"));
     if (boton === true) {
-      const traerLocal = JSON.parse(localStorage.getItem("getItem"));
       let contador = 0;
       if (traerLocal === null) {
         contador = 1;
         guardarLs.push({ id: target.id, cantidad: contador });
       } else {
+        // eslint-disable-next-line array-callback-return
         traerLocal.map((producto) => {
-          if (producto.id == target.id) {
+          if (producto.id === target.id) {
             contador += 1;
+          } else {
+            contador = 1;
+            guardarLs.push({ id: target.id, cantidad: contador });
           }
         });
       }
       localStorage.setItem("getItem", JSON.stringify(guardarLs));
     }
+    console.log(guardarLs);
   };
 
   return (
