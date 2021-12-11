@@ -34,7 +34,7 @@ const AppRouters = () => {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/registro" element={<Form />} />
-          <Route path="/modiproductos" element={<List />} />
+          <Route path="/modiproductos" element={<List productos={productos}/>} />
           <Route path="/detalles/:id" element={<Details detalle={productos} />} />
           <Route path="/carrito" element={<Cart />} />
         </Routes>

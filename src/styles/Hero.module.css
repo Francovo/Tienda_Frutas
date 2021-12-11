@@ -1,0 +1,34 @@
+.image_hero{
+    position: relative;
+    object-fit: cover;
+    height: 50vh;
+    width: 100%;
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 0.349);
+    background-size: cover;
+}
+
+.div_container{
+    
+        background-image: url(https://res.cloudinary.com/aca-geek/image/upload/v1639244900/296-2969441_fruta-por-color-color-de-las-frutas_iyruaz.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vw;
+        position: relative;
+        margin-bottom: 2rem;
+      
+}
+
+.hola{
+      position: absolute;
+  background-color: rgba(0, 0, 0, 0.397);
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    
+  color: white;
+}

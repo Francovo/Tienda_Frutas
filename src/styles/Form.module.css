@@ -1,0 +1,60 @@
+
+
+form {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+    height:43.3vw;
+
+  background: linear-gradient(to right, #f2709c, #ff9472);  
+  padding: 1%; */
+  background: linear-gradient(to right, #f2709c, #ff9472);
+  width: min(60rem, 100%);
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.div_Form{
+    padding: 1rem;
+}
+
+.btn_submit .btn{
+  padding: 1.5rem;
+  width: 20%;
+  border: none;
+  border-radius: 0.7rem;
+}
+
+.btn_submit{
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.712);
+  color: white;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  padding: 1.5rem;
+  border-radius: .5rem;
+}
+
+.h1_frutas{
+  display: flex;
+  justify-content: center;
+}
+
+.btn_archivo{
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  width: 20%;
+  border: none;
+  border-radius: 0.7rem;
+}
+

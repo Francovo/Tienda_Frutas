@@ -17,9 +17,7 @@
 }
 
 .logo {
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
-    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18,
-    40px -40px 20px rgba(206, 89, 55, 0);
+
   font-size: 35px;
   padding: 0 80px;
   font-weight: bold;
